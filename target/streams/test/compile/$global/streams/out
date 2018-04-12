@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/digital030585/Cypher/src/test/scala/CypherSpec.scala:9:30: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("a")[0m
+[0m[[0m[31merror[0m] [0m[0m required: Char[0m
+[0m[[0m[31merror[0m] [0m[0m      Cypher.convertToNumber("a") mustEqual 1[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/digital030585/Cypher/src/test/scala/CypherSpec.scala:14:30: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("b")[0m
+[0m[[0m[31merror[0m] [0m[0m required: Char[0m
+[0m[[0m[31merror[0m] [0m[0m      Cypher.convertToNumber("b") mustEqual 2[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
