@@ -3,12 +3,12 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- must When a is input return 1 [0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- when b is input return 2[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- when z is input return 26[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- when ab is input return List('a','b')[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- when List('a','b') is input return List(1,2)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- return 12341 when 1234 is input if original list length is 5[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- when ab is input return List(1,2)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- when given a code(List of integers) [19,3,15,21,20] and a key(an integer) 1939 return a List(20,12,18,30,21)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- when given input('scout',1939) must return  List(20,12,18,30,21)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- when given a list of Integers List(20,12,18,30,21) and a key(1931) returns  List(19,3,15,21,20)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- when given a list of Integers List(20,12,18,30,21) and a key(1931) returns  string'scout'[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- when given a list of Integers List(14,10,22,29,6,27,19,18,6,12,8) and a key(1931) returns  string'scout'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when ab is input return Array('a','b')[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when List('a','b') is input return Array(1,2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- return 12341 when 1234 is input if original array length is 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- return 123412341 when 1234 is input if original array length is 9[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when ab is input return Array(1,2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when scout is input return Array(19,3,15,21,20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when given a array of Integers Array(20,12,18,30,21) and a key(1931) returns  Array(19,3,15,21,20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when given a array of Integers Array(20,12,18,30,21) and a key(1931) returns  string'scout'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when given a array of Integers Array(14,10,22,29,6,27,19,18,6,12,8) and a key(1931) returns  string'scout'[0m[0m

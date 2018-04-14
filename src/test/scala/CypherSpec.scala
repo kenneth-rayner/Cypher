@@ -16,50 +16,56 @@ class CypherSpec extends WordSpec with MustMatchers {
 
     Cypher.convertToNumber('z') mustEqual 26
   }
-  "when ab is input return List('a','b')" in {
+  "when ab is input return Array('a','b')" in {
 
-    Cypher.stringToList("ab") mustEqual Array('a','b')
-    Cypher.stringToList("ken") mustEqual Array('k','e','n')
+    Cypher.stringToArray("ab") mustEqual Array('a','b')
+    Cypher.stringToArray("ken") mustEqual Array('k','e','n')
   }
-  "when List('a','b') is input return List(1,2)" in {
+  "when List('a','b') is input return Array(1,2)" in {
 
     Cypher.combine(Array('a','b')) mustEqual Array(1,2)
     Cypher.combine(Array('k','e','n')) mustEqual Array(11,5,14)
   }
 
-"return 12341 when 1234 is input if original list length is 5"in {
+"return 12341 when 1234 is input if original array length is 5"in {
 
-  Cypher.keyConverter(Array(1,2,3,4),Array(1,2,3,4,5)) mustEqual Array(1,2,3,4,1)
+  Cypher.keyConverter(Array(1, 2, 3, 4), Array(1, 2, 3, 4, 5)) mustEqual Array(1, 2, 3, 4, 1)
+}
+  "return 123412341 when 1234 is input if original array length is 9"in {
 
-  Cypher.keyConverter(Array(1,2,3,4),Array(1,2,3,4,5,6,7,8,9)) mustEqual Array(1,2,3,4,1,2,3,4,1)
+
+    Cypher.keyConverter(Array(1,2,3,4),Array(1,2,3,4,5,6,7,8,9)) mustEqual Array(1,2,3,4,1,2,3,4,1)
 
 }
-     "when ab is input return List(1,2)" in {
-       Cypher.combine(Cypher.stringToList("ab")) mustEqual Array(1,2)
-       Cypher.combine(Cypher.stringToList("ken")) mustEqual Array(11,5,14)
-       Cypher.combine(Cypher.stringToList("scout")) mustEqual Array(19,3,15,21,20)
+     "when ab is input return Array(1,2)" in {
+       Cypher.combine(Cypher.stringToArray("ab")) mustEqual Array(1, 2)
+     }
+  "when scout is input return Array(19,3,15,21,20)" in {
+
+    Cypher.combine(Cypher.stringToArray("scout")) mustEqual Array(19,3,15,21,20)
 
      }
-  "when given a code(List of integers) [19,3,15,21,20] and a key(an integer) 1939 return a List(20,12,18,30,21)" in {
-    Cypher.convertCodeAndKey(Array(19,3,15,21,20),1939) mustEqual Array(20,12,18,30,21)
-  }
-  "when given input('scout',1939) must return  List(20,12,18,30,21)" in {
-    Cypher.convertStringToCodedListInt("scout",1939) mustEqual Array(20,12,18,30,21)
- }
-  "when given a list of Integers List(20,12,18,30,21) and a key(1931) returns  List(19,3,15,21,20)" in {
+
+  "when given a array of Integers Array(20,12,18,30,21) and a key(1931) returns  Array(19,3,15,21,20)" in {
 
     Cypher.codeAndKeyNewCode(Array(20,12,18,30,21),1939) mustEqual Array(19,3,15,21,20)
   }
-  "when given a list of Integers List(20,12,18,30,21) and a key(1931) returns  string'scout'" in {
+  "when given a array of Integers Array(20,12,18,30,21) and a key(1931) returns  string'scout'" in {
 
     Cypher.returnString(Array(20,12,18,30,21),1939) mustEqual "scout"
   }
-  "when given a list of Integers List(14,10,22,29,6,27,19,18,6,12,8) and a key(1931) returns  string'scout'" in {
+  "when given a array of Integers Array(14,10,22,29,6,27,19,18,6,12,8) and a key(1931) returns  string'scout'" in {
 
     Cypher.returnString(Array(14,10,22,29,6,27,19,18,6,12,8),1939) mustEqual "masterpiece"
   }
 
 }
+//  "when given a code(List of integers) [19,3,15,21,20] and a key(an integer) 1939 return a List(20,12,18,30,21)" in {
+//    Cypher.convertCodeAndKey(Array(19,3,15,21,20),1939) mustEqual Array(20,12,18,30,21)
+//  }
+//  "when given input('scout',1939) must return  List(20,12,18,30,21)" in {
+//    Cypher.convertStringToCodedListInt("scout",1939) mustEqual Array(20,12,18,30,21)
+// }
 
 
 
