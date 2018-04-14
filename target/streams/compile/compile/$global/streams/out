@@ -1,7 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/home/digital030585/Cypher/src/main/scala/Cypher.scala:6:7: not a legal formal parameter.[0m
-[0m[[0m[31merror[0m] [0m[0mNote: Tuples cannot be directly destructured in method or function parameters.[0m
-[0m[[0m[31merror[0m] [0m[0m      Either create a single parameter accepting the Tuple1,[0m
-[0m[[0m[31merror[0m] [0m[0m      or consider a pattern matching anonymous function: `{ case (param1, param1) => ... }[0m
-[0m[[0m[31merror[0m] [0m[0m      "a" => 1,[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/digital030585/Cypher/src/main/scala/Cypher.scala:41:15: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m required: Array[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    repeatKey ++ remainderKeySlice[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
