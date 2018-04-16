@@ -19,14 +19,19 @@ class CypherSpec extends WordSpec with MustMatchers {
   "when ab is input return Array('a','b')" in {
 
     Cypher.stringToArray("ab") mustEqual Array('a','b')
+  }
+  "when ken is input return Array('k','e','n')" in {
+
     Cypher.stringToArray("ken") mustEqual Array('k','e','n')
   }
   "when List('a','b') is input return Array(1,2)" in {
 
     Cypher.combine(Array('a','b')) mustEqual Array(1,2)
+  }
+  "when List('k','e','n') is input return Array(11,5,14)" in {
+
     Cypher.combine(Array('k','e','n')) mustEqual Array(11,5,14)
   }
-
 "return 12341 when 1234 is input if original array length is 5"in {
 
   Cypher.keyConverter(Array(1, 2, 3, 4), Array(1, 2, 3, 4, 5)) mustEqual Array(1, 2, 3, 4, 1)

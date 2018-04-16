@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/digital030585/Cypher/src/main/scala/Cypher.scala:27:4: ';' expected but string literal found.[0m
-[0m[[0m[31merror[0m] [0m[0m  }""[0m
+[0m[[0m[31merror[0m] [0m[0m/home/digital030585/Cypher/src/main/scala/Cypher.scala:19:4: value sbt is not a member of Array[Char][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value sbt'?[0m
+[0m[[0m[31merror[0m] [0m[0m  }sbt[0m
 [0m[[0m[31merror[0m] [0m[0m   ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

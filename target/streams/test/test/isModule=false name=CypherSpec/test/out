@@ -4,7 +4,9 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- when b is input return 2[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- when z is input return 26[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- when ab is input return Array('a','b')[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when ken is input return Array('k','e','n')[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- when List('a','b') is input return Array(1,2)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- when List('k','e','n') is input return Array(11,5,14)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- return 12341 when 1234 is input if original array length is 5[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- return 123412341 when 1234 is input if original array length is 9[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- when ab is input return Array(1,2)[0m[0m

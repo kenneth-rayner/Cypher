@@ -18,6 +18,7 @@ object Cypher {
     input2.map(int => convertToLetters(int))
   }
 
+
   def stringToArray(input: String): Array[Char] = {
     input.toArray
   }
