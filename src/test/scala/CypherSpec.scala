@@ -1,37 +1,41 @@
 import org.scalatest.{MustMatchers, WordSpec}
 
 class CypherSpec extends WordSpec with MustMatchers {
-    "Cypher when called"  must {
+  "Cypher when called" must {
 
-      "When a is input return 1 " in {
+    "When a is input return 1 " in {
 
       Cypher.convertToNumber('a') mustEqual 1
-      }
     }
-    "when b is input return 2" in {
+  }
+  "when b is input return 2" in {
 
-      Cypher.convertToNumber('b') mustEqual 2
-    }
+    Cypher.convertToNumber('b') mustEqual 2
+  }
   "when z is input return 26" in {
 
     Cypher.convertToNumber('z') mustEqual 26
   }
   "when ab is input return Array('a','b')" in {
 
-    Cypher.stringToArray("ab") mustEqual Array('a','b')
+    Cypher.stringToArray("ab") mustEqual Array('a', 'b')
   }
   "when ken is input return Array('k','e','n')" in {
 
-    Cypher.stringToArray("ken") mustEqual Array('k','e','n')
+    Cypher.stringToArray("ken") mustEqual Array('k', 'e', 'n')
   }
   "when List('a','b') is input return Array(1,2)" in {
 
-    Cypher.combine(Array('a','b')) mustEqual Array(1,2)
+    Cypher.combine(Array('a', 'b')) mustEqual Array(1, 2)
   }
   "when List('k','e','n') is input return Array(11,5,14)" in {
 
-    Cypher.combine(Array('k','e','n')) mustEqual Array(11,5,14)
+    Cypher.combine(Array('k', 'e', 'n')) mustEqual Array(11, 5, 14)
   }
+  "when given key 1234 return Array(1,2,3,4" in {
+
+   Cypher.splitKey(1234) mustEqual Array(1,2,3,4)
+}
 "return 12341 when 1234 is input if original array length is 5"in {
 
   Cypher.keyConverter(Array(1, 2, 3, 4), Array(1, 2, 3, 4, 5)) mustEqual Array(1, 2, 3, 4, 1)

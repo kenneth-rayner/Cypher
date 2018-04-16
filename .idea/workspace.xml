@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21b4d740-d0b1-4ef9-967e-60a59565abd8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Cypher.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Cypher.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/cypher.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/cypher.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Cypher$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Cypher$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/CypherSpec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/CypherSpec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/CypherSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/CypherSpec.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="CypherSpec.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CypherSpec.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/CypherSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+            <state relative-caret-position="899">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -47,16 +34,16 @@
       <file leaf-file-name="Cypher.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Cypher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="-58">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cypher.sc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cypher.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/cypher.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="522">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
@@ -84,9 +71,9 @@
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/CypherSpec.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/CypherSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Cypher.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/cypher.sc" />
+        <option value="$PROJECT_DIR$/src/test/scala/CypherSpec.scala" />
       </list>
     </option>
   </component>
@@ -102,7 +89,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,8 +138,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.CypherSpec">
+  <component name="RunManager" selected="ScalaTest.CypherSpec.when given number 1234 return Array(1,2,3,4">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -238,21 +225,6 @@
       <setting name="path" value="CypherSpec" />
       <setting name="testName" value="when given a code(List of integers) [19,3,15,21,20] and a key(an integer) 1939 return a List(20,12,18,30,21)" />
     </configuration>
-    <configuration name="CypherSpec.when given a code(array of integers) [20,12,18,30,21] and a key(an integer) 1939" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="cypher" />
-      <setting name="path" value="CypherSpec" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="CypherSpec" />
-      <setting name="testName" value="when given a code(array of integers) [20,12,18,30,21] and a key(an integer) 1939" />
-    </configuration>
     <configuration name="CypherSpec.when given a string'scout' and a key 1939 return a List(20,12,18,30,21)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="cypher" />
       <setting name="path" value="CypherSpec" />
@@ -267,6 +239,21 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="CypherSpec" />
       <setting name="testName" value="when given a string'scout' and a key 1939 return a List(20,12,18,30,21)" />
+    </configuration>
+    <configuration name="CypherSpec.when given number 1234 return Array(1,2,3,4" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="cypher" />
+      <setting name="path" value="CypherSpec" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="CypherSpec" />
+      <setting name="testName" value="when given number 1234 return Array(1,2,3,4" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -291,19 +278,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="ScalaTest.CypherSpec.when given a code(array of integers) [20,12,18,30,21] and a key(an integer) 1939" />
       <item itemvalue="ScalaTest.CypherSpec.when given a string'scout' and a key 1939 return a List(20,12,18,30,21)" />
       <item itemvalue="ScalaTest.CypherSpec.when given a code(List of integers) [19,3,15,21,20] and a key(an integer) 1939 return a List(20,12,18,30,21)" />
       <item itemvalue="ScalaTest.CypherSpec.when ab is input return List(1,2)" />
       <item itemvalue="ScalaTest.CypherSpec" />
+      <item itemvalue="ScalaTest.CypherSpec.when given number 1234 return Array(1,2,3,4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.CypherSpec.when given number 1234 return Array(1,2,3,4" />
         <item itemvalue="ScalaTest.CypherSpec" />
         <item itemvalue="ScalaTest.CypherSpec.when ab is input return List(1,2)" />
         <item itemvalue="ScalaTest.CypherSpec.when given a code(List of integers) [19,3,15,21,20] and a key(an integer) 1939 return a List(20,12,18,30,21)" />
         <item itemvalue="ScalaTest.CypherSpec.when given a string'scout' and a key 1939 return a List(20,12,18,30,21)" />
-        <item itemvalue="ScalaTest.CypherSpec.when given a code(array of integers) [20,12,18,30,21] and a key(an integer) 1939" />
       </list>
     </recent_temporary>
   </component>
@@ -390,9 +377,16 @@
     <history-entry file="CypherSpec - 2018.04.16 at 07h 10m 41s.xml">
       <configuration name="CypherSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="CypherSpec - 2018.04.16 at 08h 27m 33s.xml">
+      <configuration name="CypherSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="CypherSpec - 2018.04.16 at 08h 28m 26s.xml">
+      <configuration name="CypherSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="122" y="-8" width="3718" height="2168" extended-state="6" />
+    <frame x="121" y="10" width="3720" height="2151" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -403,7 +397,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299337" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299337" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -426,11 +420,12 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32959756" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986552" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -439,7 +434,6 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -447,9 +441,9 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="sbt" order="7" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32959756" />
+      <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -464,6 +458,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/CypherSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Cypher.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cypher.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/CypherSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -583,24 +598,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/CypherSpec.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cypher.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="522">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Cypher.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="-58">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/cypher.sc">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/CypherSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="899">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>
