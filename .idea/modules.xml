@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cypher.iml" filepath="$PROJECT_DIR$/.idea/modules/cypher.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cypher-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cypher-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cypher.iml" filepath="$PROJECT_DIR$/.idea/modules/Cypher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Cypher-build.iml" filepath="$PROJECT_DIR$/.idea/modules/Cypher-build.iml" />
     </modules>
   </component>
 </project>

@@ -1,8 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mScaleBalancerSpec:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mCypher when called[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- must When a is input return 1  *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  List('a') did not equal 1 (CypherSpec.scala:9)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- when b is input return 2 *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  List('b') did not equal 2 (CypherSpec.scala:14)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m- when z is input return 26 *** FAILED ***[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[31m  List('z') did not equal 26 (CypherSpec.scala:18)[0m[0m

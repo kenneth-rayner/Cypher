@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/digital030585/Cypher/src/test/scala/CypherSpec.scala:21:12: value stringToList is not a member of object Cypher[0m
-[0m[[0m[31merror[0m] [0m[0m    Cypher.stringToList("ab") mustEqual Array('a','b')[0m
-[0m[[0m[31merror[0m] [0m[0m           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/digital030585/Cypher/src/test/scala/CypherSpec.scala:22:12: value stringToList is not a member of object Cypher[0m
-[0m[[0m[31merror[0m] [0m[0m    Cypher.stringToList("ken") mustEqual Array('k','e','n')[0m
-[0m[[0m[31merror[0m] [0m[0m           ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/digital32589/Training/Cypher/src/test/scala/ArabicToRomanSpec.scala:6:97: value - is not a member of String[0m
+[0m[[0m[31merror[0m] [0m[0m    "should return the correct Roman number counterpart as a string when given a Arabic number" - {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

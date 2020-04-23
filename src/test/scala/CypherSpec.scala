@@ -34,39 +34,41 @@ class CypherSpec extends WordSpec with MustMatchers {
   }
   "when given key 1234 return Array(1,2,3,4" in {
 
-   Cypher.splitKey(1234) mustEqual Array(1,2,3,4)
-}
-"return 12341 when 1234 is input if original array length is 5"in {
+    Cypher.splitKey(1234) mustEqual Array(1, 2, 3, 4)
+  }
+  "return 12341 when 1234 is input if original array length is 5" in {
 
-  Cypher.keyConverter(Array(1, 2, 3, 4), Array(1, 2, 3, 4, 5)) mustEqual Array(1, 2, 3, 4, 1)
-}
-  "return 123412341 when 1234 is input if original array length is 9"in {
+    Cypher.keyConverter(Array(1, 2, 3, 4), Array(1, 2, 3, 4, 5)) mustEqual Array(1, 2, 3, 4, 1)
+  }
+  "return 123412341 when 1234 is input if original array length is 9" in {
 
 
-    Cypher.keyConverter(Array(1,2,3,4),Array(1,2,3,4,5,6,7,8,9)) mustEqual Array(1,2,3,4,1,2,3,4,1)
+    Cypher.keyConverter(Array(1, 2, 3, 4), Array(1, 2, 3, 4, 5, 6, 7, 8, 9)) mustEqual Array(1, 2, 3, 4, 1, 2, 3, 4, 1)
 
-}
-     "when ab is input return Array(1,2)" in {
-       Cypher.combine(Cypher.stringToArray("ab")) mustEqual Array(1, 2)
-     }
+  }
+  "when ab is input return Array(1,2)" in {
+    Cypher.combine(Cypher.stringToArray("ab")) mustEqual Array(1, 2)
+  }
   "when scout is input return Array(19,3,15,21,20)" in {
 
-    Cypher.combine(Cypher.stringToArray("scout")) mustEqual Array(19,3,15,21,20)
+    Cypher.combine(Cypher.stringToArray("scout")) mustEqual Array(19, 3, 15, 21, 20)
 
-     }
+  }
 
   "when given a array of Integers Array(20,12,18,30,21) and a key(1931) returns  Array(19,3,15,21,20)" in {
 
-    Cypher.codeAndKeyNewCode(Array(20,12,18,30,21),1939) mustEqual Array(19,3,15,21,20)
+    Cypher.codeAndKeyNewCode(Array(20, 12, 18, 30, 21), 1939) mustEqual Array(19, 3, 15, 21, 20)
   }
   "when given a array of Integers Array(20,12,18,30,21) and a key(1931) returns  string'scout'" in {
 
-    Cypher.returnString(Array(20,12,18,30,21),1939) mustEqual "scout"
+    Cypher.returnString(Array(20, 12, 18, 30, 21), 1939) mustEqual "scout"
   }
-  "when given a array of Integers Array(14,10,22,29,6,27,19,18,6,12,8) and a key(1931) returns  string'scout'" in {
+  "when given a array of Integers Array(14,10,22,29,6,27,19,18,6,12,8) and a key(1931) returns  string'masterpiece'" in {
 
-    Cypher.returnString(Array(14,10,22,29,6,27,19,18,6,12,8),1939) mustEqual "masterpiece"
+    Cypher.returnString(Array(14, 10, 22, 29, 6, 27, 19, 18, 6, 12, 8), 1939) mustEqual "masterpiece"
   }
+
+
 
 }
 //  "when given a code(List of integers) [19,3,15,21,20] and a key(an integer) 1939 return a List(20,12,18,30,21)" in {

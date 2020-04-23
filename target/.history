@@ -3,3 +3,22 @@ run
 ~test
 test
 ~test
+clean compile test
+clean; compile; test
+clean
+comile
+compile
+test
+testOnly *Roman*
+clean
+compile
+test
+testOnly *Roman*
+test
+testOnly *ArabicToRomanSpec*
+clean compile
+clean; compile
+clean
+compile
+testOnly *ArabicToRomanSpec*
+git add .

@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mArabicToRomanSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mArabicToRoman[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  must should return the correct Roman number counterpart as a string when given a Arabic number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when less than 10 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when between 10 and 99 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when between 100 and 999 [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m  - when between 1000 and 2999 [0m[0m
