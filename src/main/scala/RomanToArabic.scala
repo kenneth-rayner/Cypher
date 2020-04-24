@@ -11,21 +11,22 @@ object RomanToArabic {
     )
 
 
-    val foo: Seq[Char] = romanNumeral.toList
-    val nums: Seq[Int] = foo.map(x => romanNum(x))
-
-//    val sumTuple: (Int, Int) =  nums.foldLeft((0,0)) {
-//      case ((acc, previousNUmber), currentNumber) =>
-//        (acc + (if (previousNUmber < currentNumber) -(2*previousNUmber) else 0)  + currentNumber, currentNumber) }
-//
-//    sumTuple._1
-
-          nums.foldLeft((0,0)) {
-          case ((acc, previousNUmber), currentNumber) =>
-            (acc + (if (previousNUmber < currentNumber) -(2*previousNUmber) else 0)  + currentNumber, currentNumber) }._1
+    val stringToChars: List[Char] = romanNumeral.toList
+    val nums: List[Int] = stringToChars.map(x => romanNum(x))
 
 
+//SOLUTION ONE:
+//    nums.foldLeft((0,0)) {
+//    case ((acc, previousNUmber), currentNumber) =>
+//  (acc + (if (previousNUmber < currentNumber) -(2*previousNUmber) else 0)  + currentNumber, currentNumber) }._1
 
-
+//SOLUTION TWO
+def sortNumbers(numbs: List[Int]): List[Int] = numbs match{
+  case Nil => List(0)
+  case head :: Nil => List(head)
+  case head :: tail => (if(head < tail.head) -head else head) :: sortNumbers(tail)
     }
+    sortNumbers(nums).sum
+  }
 }
+

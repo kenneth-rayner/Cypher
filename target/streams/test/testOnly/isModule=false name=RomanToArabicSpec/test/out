@@ -1,0 +1,8 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRomanToArabicSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRomanToArabic when given a Roman number[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return the equivalent Arabic Number as a 1 char string [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return the equivalent Arabic Number when given a 2 char string of descending Roman numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return the equivalent Arabic Number when given  a variable length string of descending Roman numbers [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return the equivalent Arabic Number when given  a 2 char string of ascending Roman numbers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return the equivalent Arabic Number when given  string of 3 chars ascending and descending Roman numbers [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return the equivalent Arabic Number  when given variable length string of ascending and descending Roman numbers [0m[0m

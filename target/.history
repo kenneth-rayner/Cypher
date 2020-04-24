@@ -22,3 +22,5 @@ clean
 compile
 testOnly *ArabicToRomanSpec*
 git add .
+test
+testOnly *RomanToArabic*
